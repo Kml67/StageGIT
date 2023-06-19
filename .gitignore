@@ -1,0 +1,13 @@
+#ignorer tous les fichier .o .pyi .class
+*.o
+*.class
+*.pyi
+
+# à part le main.o
+!main.o
+
+#ignorer tout le contenu du répertoire bin/
+bin/
+
+#ignorer le fichier test.txt dans la racine du projet
+/test.ext
